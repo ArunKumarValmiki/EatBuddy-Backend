@@ -19,10 +19,7 @@
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
 - [Deployment](#deployment)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Author](#author)
 
 ---
 
@@ -205,3 +202,17 @@ To start the development server:
 npm start
 # or
 yarn start
+```
+---
+## Deployment
+
+**The EatBuddy Backend is currently deployed and hosted on Render.com**
+
+```bash
+https://eatbuddy-backend-vendordashboard.onrender.com
+```
+---
+
+## Author
+
+### Arun Kumar Valmiki

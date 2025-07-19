@@ -176,7 +176,7 @@ Follow these steps to set up and run the EatBuddy Backend locally for developmen
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ArunKumarValmiki/EatBuddy-Backend.git](https://github.com/ArunKumarValmiki/EatBuddy-Backend.git)
+    git clone https://github.com/ArunKumarValmiki/EatBuddy-Backend.git
     cd EatBuddy-Backend
     ```
 2.  **Install dependencies:**

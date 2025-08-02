@@ -36,15 +36,12 @@ const firmSchema = new mongoose.Schema({
         type : String
     },
 
-    // Relationship between vendor and firm 
-    vendor : [
-        {
+    // Relationship between vendor and firm (one to one)
+    vendor : {
             type : mongoose.Schema.Types.ObjectId,
             ref : 'Vendor'
-        }
-    ],
-
-    // Relationship between product
+    },
+    // Relationship between firm and products(one to many)
     products : [{
         type : mongoose.Schema.Types.ObjectId,
         ref : 'Product'

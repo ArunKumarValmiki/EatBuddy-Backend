@@ -37,10 +37,10 @@ const firmSchema = new mongoose.Schema({
     },
 
     // Relationship between vendor and firm (one to one)
-    vendor : {
+    vendor : [{
             type : mongoose.Schema.Types.ObjectId,
             ref : 'Vendor'
-    },
+    }],
     // Relationship between firm and products(one to many)
     products : [{
         type : mongoose.Schema.Types.ObjectId,
